@@ -1,0 +1,6 @@
+8545 ve 13000 portu opside ile çakışıyor. Bu sorunu aşmak için winscp ile sunucumuza girip resimde işaretli olan dosyaları açarak portları 8545 i 8544; 13000 ü 13001 olarak değiştirebilirsiniz.
+/opt/sanchain/readonly/.env
+/opt/sanchain/readonly/docker-compose-readonly.yml
+/opt/sanchain/readonly/docker-compose-validator.yml
+/opt/sanchain/readonly/docker-compose-validator-slasher.yml
+[url=https://hizliresim.com/weywqvl][img]https://i.hizliresim.com/weywqvl.png[/img][/url]
