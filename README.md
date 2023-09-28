@@ -35,17 +35,17 @@ sudo docker run hello-world
 
 ```console
 # gerekli yapılandırmalar:
-mkdir -p /opt/sanchain/readonly
-cd /opt/sanchain/readonly
+sudo mkdir -p /opt/sanchain/readonly
+sudo cd /opt/sanchain/readonly
 
-git clone https://github.com/santiment/sanr-pos-network.git .
+sudo git clone https://github.com/santiment/sanr-pos-network.git .
 
-mv env.example .env
-nano .env
+sudo mv env.example .env
+sudo nano .env
 
 # EXTERNAL_IP=Sunucunun IP adresini giriniz - CTRL X Y ENTER ile çıkınız.
-ln -s docker-compose-readonly.yml docker-compose.yml
-docker compose up -d
+sudo ln -s docker-compose-readonly.yml docker-compose.yml
+sudo docker compose up -d
 ```
 
 > Kurulum başarılı olunca [buradan](https://nodes.sanr.network/) başvuruyoruz
