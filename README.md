@@ -36,7 +36,7 @@ sudo docker run hello-world
 ```console
 # gerekli yapılandırmalar:
 sudo mkdir -p /opt/sanchain/readonly
-sudo cd /opt/sanchain/readonly
+cd /opt/sanchain/readonly
 
 sudo git clone https://github.com/santiment/sanr-pos-network.git .
 
